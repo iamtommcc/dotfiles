@@ -1,0 +1,5 @@
+[user]
+	name = Tom McCarthy
+	email = tom@tomm.cc
+[pull]
+	rebase = true
