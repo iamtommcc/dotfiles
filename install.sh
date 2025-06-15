@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-REPO_URL="https://github.com/youruser/dotfiles.git"
+REPO_URL="https://github.com/iamtommcc/dotfiles.git"
 
 echo "==> Checking Xcode Command Line Tools..."
 if ! xcode-select -p >/dev/null 2>&1; then
