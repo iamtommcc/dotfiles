@@ -1,14 +1,41 @@
+tap "pakerwreah/calendr"
 brew "chezmoi"
 brew "fish"
+brew "flyctl"
 brew "git"
 brew "libyaml"
+brew "mas"
 brew "mise"
 brew "php"
+brew "redis", restart_service: :changed
 cask "1password"
+cask "altserver"
+cask "calendr"
 cask "chatgpt"
 cask "cursor"
+cask "discord"
 cask "google-chrome"
 cask "iterm2"
 cask "linearmouse"
+cask "loom"
+cask "messenger"
 cask "orbstack"
 cask "raycast"
+cask "slack"
+cask "spotify"
+cask "stats"
+cask "warp"
+cask "whatsapp"
+cask "yaak"
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "MonitorControlLite", id: 1595464182
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+vscode "bradlc.vscode-tailwindcss"
+vscode "csstools.postcss"
+vscode "dbaeumer.vscode-eslint"
+vscode "esbenp.prettier-vscode"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-azuretools.vscode-docker"
